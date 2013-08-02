@@ -1,0 +1,18 @@
+#ifndef ParallaxBA_CONFIG_H
+#define ParallaxBA_CONFIG_H
+
+#cmakedefine ParallaxBA_SHARED_LIBS 1
+#cmakedefine ParallaxBA_LGPL_SHARED_LIBS 1
+
+// available sparse matrix libraries
+#cmakedefine ParallaxBA_HAVE_CHOLMOD 1
+
+#cmakedefine ParallaxBA_CXX_COMPILER "@ParallaxBA_CXX_COMPILER@"
+
+// give a warning if Eigen defaults to row-major matrices.
+// We internally assume column-major matrices throughout the code.
+#ifdef EIGEN_DEFAULT_TO_ROW_MAJOR
+#  error "ParallaxBA requires column major Eigen matrices (see http://eigen.tuxfamily.org/bz/show_bug.cgi?id=422)"
+#endif
+
+#endif

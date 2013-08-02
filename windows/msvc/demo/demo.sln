@@ -1,0 +1,29 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "demo", "demo.vcxproj", "{6D8A7118-1C57-4CED-B011-0F925C907051}"
+	ProjectSection(ProjectDependencies) = postProject
+		{74610ED7-5724-41EC-95CB-EDCC13FF76FF} = {74610ED7-5724-41EC-95CB-EDCC13FF76FF}
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ParallaxBA", "..\ParallaxBA\ParallaxBA\ParallaxBA.vcxproj", "{74610ED7-5724-41EC-95CB-EDCC13FF76FF}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6D8A7118-1C57-4CED-B011-0F925C907051}.Debug|Win32.ActiveCfg = Debug|Win32
+		{6D8A7118-1C57-4CED-B011-0F925C907051}.Debug|Win32.Build.0 = Debug|Win32
+		{6D8A7118-1C57-4CED-B011-0F925C907051}.Release|Win32.ActiveCfg = Release|Win32
+		{6D8A7118-1C57-4CED-B011-0F925C907051}.Release|Win32.Build.0 = Release|Win32
+		{74610ED7-5724-41EC-95CB-EDCC13FF76FF}.Debug|Win32.ActiveCfg = Debug|Win32
+		{74610ED7-5724-41EC-95CB-EDCC13FF76FF}.Debug|Win32.Build.0 = Debug|Win32
+		{74610ED7-5724-41EC-95CB-EDCC13FF76FF}.Release|Win32.ActiveCfg = Release|Win32
+		{74610ED7-5724-41EC-95CB-EDCC13FF76FF}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

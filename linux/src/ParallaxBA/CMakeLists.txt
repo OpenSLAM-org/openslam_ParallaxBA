@@ -1,0 +1,5 @@
+SET(DIR_SRCS ParallaxBA.cpp)   
+ADD_EXECUTABLE(ParallaxBA ${DIR_SRCS})   
+TARGET_LINK_LIBRARIES(ParallaxBA ParallaxBAImp)   
+  
+INSTALL(TARGETS ParallaxBA RUNTIME DESTINATION bin) 
