@@ -45,13 +45,13 @@ int _tmain(int argc, char* argv[] )
 
 	//========================================================================================
 	//Malaga dataset
-	char*  szCam = "../../../data/Malaga/Cam170.txt";
-	char*  szFea = "../../../data/Malaga/Feature170.txt";
-	char*  szCalib = "../../../data/Malaga/cal170.txt";
-	char*  szReport = "../../../data/Malaga/report.txt";
-
-	bool bLM     = true;   //true is Levenberg-Marquardt
-  	pBA->pba_run( false, bLM, 100, szCam, szFea, NULL, szCalib, szReport, NULL, NULL );
+ 	char*  szCam = "../../../data/Malaga/Cam170.txt";
+ 	char*  szFea = "../../../data/Malaga/Feature170.txt";
+ 	char*  szCalib = "../../../data/Malaga/cal170.txt";
+ 	char*  szReport = "../../../data/Malaga/report.txt";
+ 
+ 	bool bLM     = true;   //true is Levenberg-Marquardt
+   	pBA->pba_run( false, bLM, 100, szCam, szFea, NULL, szCalib, szReport, NULL, NULL );
 	//++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
 	//========================================================================================
@@ -141,6 +141,17 @@ int _tmain(int argc, char* argv[] )
 //     
 //    bool bLM     = true;   //true is Levenberg-Marquardt
 //    pBA->pba_run( false, bLM, 100, szCam, szFea, NULL, szCalib, szReport, NULL, NULL, 1E-3 );
+	//++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+	//========================================================================================
+	//Taian dataset
+// 	char*  szCam = "../../../data/Taian/Cam737.txt";
+// 	char*  szFea = "../../../data/Taian/Feature737.txt";
+// 	char*  szCalib = "../../../data/Taian/cal737.txt";
+// 	char*  szReport = "../../../data/Taian/report.txt";
+// 	
+// 	bool bLM     = false;   //true is Levenberg-Marquardt
+// 	pBA->pba_run( false, bLM, 100, szCam, szFea, NULL, szCalib, szReport, NULL, NULL, 1E-3 );
 	//++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 	
 	freeParallaxBA( pBA );
