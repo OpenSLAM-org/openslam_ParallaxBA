@@ -8,7 +8,7 @@ University of Technology, Sydney, Australia
 
 C/C++ sourse code for ParallaxBA: Bundle Adjustment with Parallax Angle Feature Parametrization
 
-Authors:  Liang Zhao         -- Liang.Zhao-1@uts.edu.au 
+Authors:  Liang Zhao         -- liang.zhao@imperial.ac.uk 
           Shoudong Huang     -- Shoudong.Huang@uts.edu.au
           Yanbiao Sun        -- syb51@pku.edu.cn
 	  Gamini Dissanayake -- Gamini.Dissanayake@uts.edu.au
@@ -34,9 +34,8 @@ If you use this code for academic work, please reference:
       IEEE International Conference on Robotics and Automation (ICRA), 2011.
 
       Liang Zhao, Shoudong Huang, Yanbiao Sun, Lei Yan and Gamini Dissanayake,
-      ParallaxBA: Bundle Adjustment
-using Parallax Angle Feature Parametrization,
-      Submitted to International Journal of Robotics Research (IJRR), August 2013. 
+      ParallaxBA: Bundle Adjustment using Parallax Angle Feature Parametrization,
+      International Journal of Robotics Research (IJRR), 2015. 
      
 
 3) For commercial uses, please contact the authors.
@@ -70,5 +69,5 @@ Support
 
 Questions, comments, suggestions, discussions and bug reports are welcomed. 
 
-Please email to syb51@pku.edu.cn or Liang.Zhao-1@uts.edu.au.
+Please email to syb51@pku.edu.cn or liang.zhao@imperial.ac.uk.
 

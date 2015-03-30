@@ -1,7 +1,7 @@
 //==============================================================================================================
 // University of Technology, Sydney, Australia
 // 
-// Authors:  Liang Zhao         -- Liang.Zhao-1@uts.edu.au 
+// Authors:  Liang Zhao         -- liang.zhao@imperial.ac.uk 
 // 		  Shoudong Huang        -- Shoudong.Huang@uts.edu.au
 //        Yanbiao Sun           -- syb51@pku.edu.cn
 // 		  Gamini Dissanayake    -- Gamini.Dissanayake@uts.edu.au
